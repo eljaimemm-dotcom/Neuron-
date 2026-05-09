@@ -421,12 +421,16 @@ flex: 1 1 var(--min-width);
 
 /* Contact*/
 
-
+.contact{
+    display: flex;
+    justify-content: center; 
+}
 
 .contact__block{
     display: flex;
     flex-wrap: wrap;
     gap: var(--space-16);
+    width: 100%;
 }
 .contact__map{
 flex: 2 1 var(--min-width);
